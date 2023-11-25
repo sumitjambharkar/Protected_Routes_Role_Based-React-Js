@@ -5,7 +5,6 @@ import {
   Route,
   Navigate,
 } from "react-router-dom";
-import Profile from "./components/userRoutes/Profile";
 import User from "./components/userRoutes/User";
 import Home from "./components/Home";
 import Admin from "./components/adminRoutes/User";
@@ -33,9 +32,8 @@ const App = () => {
         <Route path="/" element={<PublicElements><Home currentUserType={currentUserType} login={login} /></PublicElements>}/>
         <Route path="/welcome" element={<PublicElements><Welcome /></PublicElements>}/>
         <Route path="/user" element={<UserElements currentUserType={currentUserType}><User /></UserElements>}/>
-        <Route path="/profile" element={<UserElements currentUserType={currentUserType}><Profile /></UserElements>}/>
         <Route path="/admin" element={<AdminElements currentUserType={currentUserType}><Admin /></AdminElements>}/>
-        <Route path="*" element={<div>Page Not Found!</div>} />
+        <Route path="*" element={<div><h1>Page Not Found!</h1></div>} />
       </Routes>
     </Router>
   );
