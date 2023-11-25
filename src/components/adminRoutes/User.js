@@ -2,7 +2,7 @@ import React from 'react'
 
 const User = () => {
   return (
-    <div>Admin Page</div>
+    <div><h1>Welcome Admin Page</h1></div>
   )
 }
 
