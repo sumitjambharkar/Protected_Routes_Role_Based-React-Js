@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 
 const Home = () => {
   return (
-    <div>Home Page</div>
+    <div>Protected_Routes_Role_Based-React-Js</div>
   )
 }
 

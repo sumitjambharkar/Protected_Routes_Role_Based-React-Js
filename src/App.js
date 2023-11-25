@@ -8,7 +8,7 @@ import {
 import Profile from "./components/userRoutes/Profile";
 import User from "./components/userRoutes/User";
 import Home from "./components/Home";
-import Admin from "./components/adminRoutes/User"
+import Admin from "./components/adminRoutes/User";
 
 const USER_TYPES = {
   PUBLIC: "Public User",
